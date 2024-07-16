@@ -12,11 +12,7 @@
     <header>
         <div>
                         
-            <div>
-                <a href="index.html">
-                    <p>Parrave</p>
-                </a>
-            </div>
+           
     
             <div>
                 <nav class="nav">
@@ -96,7 +92,7 @@
                 <div>
                    
                     <div>
-                        <center><span class="ads">Advertisment Opportunity</span></center>
+                        <center><span class="ads  tracking-in-expand" style="size: 150px;">Advertisment Opportunity</span></center>
                         
                     </div>
                     <div>
@@ -200,8 +196,8 @@
     
                 <div>
     
-                    <div>
-                        <h2>Smart Snacking</h2>
+                    <div><center><h2 class="tracking-in-expand">Smart Snacking</h2></center>
+                        
                     </div>
     
                 </div>
@@ -244,37 +240,15 @@
     
        
         <br><br><br>
-        <video src="https://www.youtube.com/watch?v=OnfPWmOMgPk" style="width: 98%; height: 70%;" autoplay></video>
+        <iframe width="98%" height="500" src="https://www.youtube.com/embed/jrd-acToTsE?si=mIsUB70YSrwty8ie" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
-        <section>
-            <div>
-                
-                <div>
-                    <div>
-                        <img src="#" alt="img not found">
-                    </div>
-                </div>
-                
-                <div>
-                    <div>
-                        <svg width="69" height="56" viewBox="0 0 69 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.43939 26.8064V26.8069C7.43939 28.1023 8.47095 29.1339 9.76631 29.1339H27.0513V52.6373H3.54785V26.8069C3.54785 14.7491 12.7638 4.80069 24.5036 3.63028V7.536C19.9667 8.0915 15.7593 10.2317 12.6344 13.5947C9.29795 17.1854 7.44223 21.9048 7.43939 26.8064ZM66.8325 29.1339V52.6373H43.329V26.8069C43.329 14.7489 52.5455 4.79947 64.3113 3.63006V7.5342C54.6836 8.69306 47.2205 16.8812 47.2205 26.8069C47.2205 28.1023 48.2521 29.1339 49.5475 29.1339H66.8325Z" stroke="#50FEA8" stroke-width="2"/>
-                        </svg>                                             
-                    </div>
-                    <p>We have been operating for over an providin top-notch services to our clients and build strong track record in the industry.We have been operating for over a decad providi ina top-notch  We have been operating</p>
-                    <div>
-                        <div>
-                            <img src="#" alt="img not found">
-                        </div>
-                        <div>
-                            <h6>John Deo</h6>
-                            <span>Company</span>
-                        </div>
-                    </div>
-                </div>
-                    
-            </div>
-        </section>
+
+
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+        <div class="elfsight-app-529b9f95-1e54-4aae-86c2-61b0d29674d5" data-elfsight-app-lazy></div>
+
+
+        
     
         <br><br><br>
     
@@ -351,6 +325,11 @@
                 </div>
     
             </div>
+
+            ----------------------------------------------------------------------------
+
+
+            ==========================================================================
     
         </section>
         
@@ -361,21 +340,49 @@
     <footer>
         <section>
             
-            <div>
+            <div style="display: flex;justify-content: space-around;  background-color: rgb(241, 204, 134);">
                 <div>
-                    <p>© <a href="#">ACM</a> 2024 | All Rights Reserved</p>
+                    <p>© <a href="#" style="color: aliceblue; ">ACM</a> 2024 | All Rights Reserved</p>
                 </div>
     
                 <div>
-                    <ul>
-                        <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                    <ul style="display: flex; justify-content: space-around;">
+                        <li style="color: aliceblue;><a href="#">Terms & Condition</a></li>
+                        <li style="color: aliceblue;><a href="#">Privacy Policy</a></li>
+                        <li style="color: aliceblue;><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
     
         </section>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        
+        
+        <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+
     </footer>
     
 </body>
